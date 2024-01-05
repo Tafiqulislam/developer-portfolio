@@ -60,7 +60,7 @@ nav a{
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -90,4 +90,18 @@ nav a{
 }
 .button3:hover{
     background-color: #f9f9f9;
+}
+
+.Hi{
+    font-size: 45px;
+    color: #384037;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+
+.Na{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 4px;
+    margin-bottom: 20px;
 }
