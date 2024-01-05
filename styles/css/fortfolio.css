@@ -11,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 .title{
@@ -45,9 +46,48 @@ nav a{
     border: 0px;
     font-size: 16px;
     font-weight: bold;
-    margin-right: 90px;
+    margin-right: 80px;
+    color: white;
 }
 
 .button1:hover{
     background-color: #30d114;
+}
+
+/* header related style */
+.header1{
+    background-color: #e7ffe2;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.button2{
+    padding: 10px;
+    background-color: #2d9a19;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+.button2:hover{
+    background-color: #30c915;
+}
+
+.button3{
+    width: 100px;
+    padding: 7px;
+    background-color: #c2d4bf;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid forestgreen;
+    color: rgb(11, 116, 7);
+    margin-left: 15px;
+}
+.button3:hover{
+    background-color: #f9f9f9;
 }
