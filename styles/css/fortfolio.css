@@ -120,6 +120,11 @@ img{
     width: 800px;
 }
 
+.main_section{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
 /* mine section styles */
 .section_title{
     text-align: center;
@@ -129,8 +134,6 @@ img{
 /* about sction styles */
 
 .about{
-    width: 1140px;
-    height: 550px;
     padding: 130px;
     background-color: #e7ffe2;
     margin: 130px 0;
@@ -140,4 +143,17 @@ img{
     color: #757575;
     font-size: 25px;
     font-weight: 400px;
+}
+
+.id-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+#id1{
+    padding: 30px 150px;
 }
