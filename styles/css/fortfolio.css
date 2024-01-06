@@ -63,6 +63,11 @@ nav a{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner_content{
+    max-width: 600px;
 }
 
 .button2{
@@ -73,6 +78,7 @@ nav a{
     border: 0;
     color: white;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 .button2:hover{
     background-color: #30c915;
@@ -94,7 +100,7 @@ nav a{
 
 .Hi{
     font-size: 45px;
-    color: #384037;
+    color: #303530;
     margin-bottom: 0;
     padding-bottom:0;
 }
@@ -103,5 +109,35 @@ nav a{
     font-size: 85px;
     font-weight: 700px;
     margin-top: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.paragrap{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+img{
+    width: 800px;
+}
+
+/* mine section styles */
+.section_title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+/* about sction styles */
+
+.about{
+    width: 1140px;
+    height: 550px;
+    padding: 130px;
+    background-color: #e7ffe2;
+    margin: 130px 0;
+}
+.about_text{
+    text-align: center;
+    color: #757575;
+    font-size: 25px;
+    font-weight: 400px;
 }
