@@ -178,8 +178,36 @@ main section{
     margin-top: 130px;
 }
 
-/* resumi style */
-.resumi_colam_title{
+.section-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* section styles */
+.resume-column-title{
     font-size: 30px;
     font-weight: 700;
+}
+.main-div2{
+    display: flex;
+}
+
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
+.c-v{
+    padding: 12px 10px;
+    background-color: #26ad0f;
+    border: 0;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.c-v:hover{
+    background-color: #30c915;
+}
+
+.c-v:active{
+    font-size: 31px;
 }
